@@ -1,20 +1,35 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
 
 html, body {
     width: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
-    background: #18bc9c; /*rgba(68, 157, 68, 0.2);*/
+    background: white;
+    margin-bottom: 3%;
+}
+
+h3{
+    font-weight: 800;
 }
 
 button {
-    width: 100%;
+    width: 80%;
     height: 100%;
-    margin: 10px 0;
+    margin: 25px 0;
+    background-color: #f9a91a !important;
+    color: #2b2b2b !important;
+    border: none !important;
+    font-weight: bold !important;
+    border-radius: 2px !important;
+}
+
+button:hover{
+    color: white !important;
 }
 
 #map {

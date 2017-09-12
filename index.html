@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Easy Vreco</title>
@@ -9,30 +10,38 @@
     <!--typografia-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
     <section class="container">
-        <div class="row">
+        <div class="row text-center">
+            <div class="col-md-12 col-sm-12">
+                <h3>EASY BIKE</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row text-center">
             <div class="col-md-3 col-sm-3">
-                <button id="encuentrame" class="btn btn-success"><i class="fa fa-user" aria-hidden="true"></i> Encuéntrame</button>
+                <button id="find-me" class="btn btn-success"><i class="fa fa-user" aria-hidden="true"></i> Encuéntrame</button>
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="form-group">
                     <label for="origen">Origen:</label>
-                    <input type="text" id="origen" name="origen" placeholder="Introduce una ubicación" class="form-control">
+                    <input type="text" id="origin" name="origin" placeholder="Introduce una ubicación" class="form-control">
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="form-group">
                     <label for="destino">Destino:</label>
-                    <input type="text" id="destino" name="destino" placeholder="Introduce una ubicación" class="form-control">
+                    <input type="text" id="destination" name="destination" placeholder="Introduce una ubicación" class="form-control">
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
-                <button id="ruta" class="btn btn-success"><i class="fa fa-bicycle" aria-hidden="true"></i> Ruta</button>
+                <button id="show-road" class="btn btn-success"><i class="fa fa-bicycle" aria-hidden="true"></i> Ruta</button>
             </div>
         </div>
         <div class="row">
@@ -43,13 +52,15 @@
     </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--MAPA-->
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <!-- Tu Archivo main.js -->
     <script src="https://use.fontawesome.com/1625bb79ec.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj_W1ZaIS_DRBNaqkYH6c9V2XZPdG743Y&callback=initMap&libraries=places"></script>
-    
+    <!--MAPA-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByvAqPFkWpBcbkCCMFqZPi5oV2lP0RWi4&callback=initMap&libraries=places"></script>
+
 </body>
+
 </html>
